@@ -1,0 +1,3 @@
+SELECT Nomer_id, AVG(Price) AS AVGPRICE, MAX(Price) AS MAXPRICE, MIN(Price) AS MINPRICE
+FROM SelledT
+GROUP BY Nomer_id

@@ -1,0 +1,815 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Lines[
+  <!ELEMENT  Cities (City+)>
+  <!ELEMENT City (Name)>
+  <!ATTLIST City ID ID #REQUIRED>
+  <!ELEMENT Name (#PCDATA)>
+  <!ELEMENT CountryName (#PCDATA)>
+]>
+
+<Cities>
+  <City ID="0">
+    <Name>Алат</Name>
+    <CountryName>Узбекистан</CountryName>
+  </City>
+  <City ID="1">
+    <Name>Калмыково</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="2">
+    <Name>Пурвис</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="3">
+    <Name>Элма</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="4">
+    <Name>Саут-Майами-Хейгтс</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="5">
+    <Name>Дубоссары</Name>
+    <CountryName>Молдова</CountryName>
+  </City>
+  <City ID="6">
+    <Name>Челмсфорд</Name>
+    <CountryName>Великобритания</CountryName>
+  </City>
+  <City ID="7">
+    <Name>Кандалакша</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="8">
+    <Name>Тучково</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="9">
+    <Name>Фалкирк</Name>
+    <CountryName>Великобритания</CountryName>
+  </City>
+  <City ID="10">
+    <Name>Невада</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="11">
+    <Name>Пестяки</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="12">
+    <Name>Хороль</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="13">
+    <Name>Силертон</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="14">
+    <Name>Ривербанк</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="15">
+    <Name>Ниагара-Фоллс</Name>
+    <CountryName>Канада</CountryName>
+  </City>
+  <City ID="16">
+    <Name>Назарово</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="17">
+    <Name>Берген</Name>
+    <CountryName>Норвегия</CountryName>
+  </City>
+  <City ID="18">
+    <Name>Деденево</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="19">
+    <Name>Ларедо</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="20">
+    <Name>Ингичка</Name>
+    <CountryName>Узбекистан</CountryName>
+  </City>
+  <City ID="21">
+    <Name>Малверн</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="22">
+    <Name>Сент-Джозеф</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="23">
+    <Name>Порту-Алегри</Name>
+    <CountryName>Бразилия</CountryName>
+  </City>
+  <City ID="24">
+    <Name>Чуднов</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="25">
+    <Name>Диерсбург</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="26">
+    <Name>Сомбререт</Name>
+    <CountryName>Мексика</CountryName>
+  </City>
+  <City ID="27">
+    <Name>Чигирин</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="28">
+    <Name>Юрбаркас</Name>
+    <CountryName>Литва</CountryName>
+  </City>
+  <City ID="29">
+    <Name>Варва</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="30">
+    <Name>Ибараки</Name>
+    <CountryName>Япония</CountryName>
+  </City>
+  <City ID="31">
+    <Name>Свиссвейл</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="32">
+    <Name>Оак Хилл</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="33">
+    <Name>Купавна</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="34">
+    <Name>Леониа</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="35">
+    <Name>Олинда</Name>
+    <CountryName>Бразилия</CountryName>
+  </City>
+  <City ID="36">
+    <Name>Чайковский</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="37">
+    <Name>Атырау(Гурьев)</Name>
+    <CountryName>Казахстан</CountryName>
+  </City>
+  <City ID="38">
+    <Name>Коммерк</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="39">
+    <Name>Бородино</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="40">
+    <Name>Декатур</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="41">
+    <Name>Норт-Вэлли-Стрим</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="42">
+    <Name>Анахейм</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="43">
+    <Name>Ланчхути</Name>
+    <CountryName>Грузия</CountryName>
+  </City>
+  <City ID="44">
+    <Name>Барли</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="45">
+    <Name>Фукуиама</Name>
+    <CountryName>Япония</CountryName>
+  </City>
+  <City ID="46">
+    <Name>Тундер Бэй</Name>
+    <CountryName>Канада</CountryName>
+  </City>
+  <City ID="47">
+    <Name>Пулавы</Name>
+    <CountryName>Польша</CountryName>
+  </City>
+  <City ID="48">
+    <Name>Монктон</Name>
+    <CountryName>Канада</CountryName>
+  </City>
+  <City ID="49">
+    <Name>Нарын</Name>
+    <CountryName>Киргызстан</CountryName>
+  </City>
+  <City ID="50">
+    <Name>Ушачи</Name>
+    <CountryName>Беларусь</CountryName>
+  </City>
+  <City ID="51">
+    <Name>Кордоба</Name>
+    <CountryName>Испания</CountryName>
+  </City>
+  <City ID="52">
+    <Name>Паранагуа</Name>
+    <CountryName>Бразилия</CountryName>
+  </City>
+  <City ID="53">
+    <Name>Олаварриа</Name>
+    <CountryName>Аргентина</CountryName>
+  </City>
+  <City ID="54">
+    <Name>Згуровка</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="55">
+    <Name>Цюрих</Name>
+    <CountryName>Швейцария</CountryName>
+  </City>
+  <City ID="56">
+    <Name>Приенай</Name>
+    <CountryName>Литва</CountryName>
+  </City>
+  <City ID="57">
+    <Name>Косов</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="58">
+    <Name>Ибреси</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="59">
+    <Name>Йолит</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="60">
+    <Name>Хьюстон</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="61">
+    <Name>Суровикино</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="62">
+    <Name>Артемовск</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="63">
+    <Name>Сагареджо</Name>
+    <CountryName>Грузия</CountryName>
+  </City>
+  <City ID="64">
+    <Name>Уайт-Халл</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="65">
+    <Name>Джакарта</Name>
+    <CountryName>Индонезия</CountryName>
+  </City>
+  <City ID="66">
+    <Name>Вест-Вью</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="67">
+    <Name>Хабез</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="68">
+    <Name>Винь</Name>
+    <CountryName>Вьетнам</CountryName>
+  </City>
+  <City ID="69">
+    <Name>Хамилтон</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="70">
+    <Name>Усть-Джегута</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="71">
+    <Name>Восточный</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="72">
+    <Name>Балыкчи</Name>
+    <CountryName>Узбекистан</CountryName>
+  </City>
+  <City ID="73">
+    <Name>Харрисбург</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="74">
+    <Name>Клинтон</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="75">
+    <Name>Балаклава</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="76">
+    <Name>Балхаш</Name>
+    <CountryName>Казахстан</CountryName>
+  </City>
+  <City ID="77">
+    <Name>Рогерсвилл</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="78">
+    <Name>Горна Джумая</Name>
+    <CountryName>Болгария</CountryName>
+  </City>
+  <City ID="79">
+    <Name>Белиз-Сити</Name>
+    <CountryName>Белиз</CountryName>
+  </City>
+  <City ID="80">
+    <Name>Тируваннамалаи</Name>
+    <CountryName>Индия</CountryName>
+  </City>
+  <City ID="81">
+    <Name>Шимск</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="82">
+    <Name>Николаевка</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="83">
+    <Name>Денхам-Спрингс</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="84">
+    <Name>Мосул</Name>
+    <CountryName>Ирак</CountryName>
+  </City>
+  <City ID="85">
+    <Name>Касугаи</Name>
+    <CountryName>Япония</CountryName>
+  </City>
+  <City ID="86">
+    <Name>Пунта-Альта</Name>
+    <CountryName>Аргентина</CountryName>
+  </City>
+  <City ID="87">
+    <Name>Рока</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="88">
+    <Name>Сьерра-Виста</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="89">
+    <Name>Маастрихт</Name>
+    <CountryName>Голландия</CountryName>
+  </City>
+  <City ID="90">
+    <Name>Керфилли</Name>
+    <CountryName>Великобритания</CountryName>
+  </City>
+  <City ID="91">
+    <Name>Старая Русса</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="92">
+    <Name>Старощербиновская</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="93">
+    <Name>Плайнвью</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="94">
+    <Name>Котельнич</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="95">
+    <Name>Кельце</Name>
+    <CountryName>Польша</CountryName>
+  </City>
+  <City ID="96">
+    <Name>Бхаратпур</Name>
+    <CountryName>Индия</CountryName>
+  </City>
+  <City ID="97">
+    <Name>Науйойи-Акмяне</Name>
+    <CountryName>Литва</CountryName>
+  </City>
+  <City ID="98">
+    <Name>Топки</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="99">
+    <Name>Вашингтон</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="100">
+    <Name>Ильинский</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="101">
+    <Name>Ватер Валли</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="102">
+    <Name>Кордова</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="103">
+    <Name>Вортингтон-Спрингс</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="104">
+    <Name>Марлборо</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="105">
+    <Name>Искитим</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="106">
+    <Name>Седар-Гров</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="107">
+    <Name>Амалфи</Name>
+    <CountryName>Италия</CountryName>
+  </City>
+  <City ID="108">
+    <Name>Муезерский</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="109">
+    <Name>Фриндсвилл</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="110">
+    <Name>Данвилл</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="111">
+    <Name>Кизнер</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="112">
+    <Name>Скаудвиле</Name>
+    <CountryName>Литва</CountryName>
+  </City>
+  <City ID="113">
+    <Name>Будогощь</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="114">
+    <Name>Лето</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="115">
+    <Name>Атами</Name>
+    <CountryName>Япония</CountryName>
+  </City>
+  <City ID="116">
+    <Name>Новый Афон</Name>
+    <CountryName>Грузия</CountryName>
+  </City>
+  <City ID="117">
+    <Name>Таловая</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="118">
+    <Name>Лисбург</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="119">
+    <Name>Кирьят-Ям</Name>
+    <CountryName>Израиль</CountryName>
+  </City>
+  <City ID="120">
+    <Name>Шахтинск</Name>
+    <CountryName>Казахстан</CountryName>
+  </City>
+  <City ID="121">
+    <Name>Шуманай</Name>
+    <CountryName>Узбекистан</CountryName>
+  </City>
+  <City ID="122">
+    <Name>Индепенденс</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="123">
+    <Name>Эрзурум</Name>
+    <CountryName>Турция</CountryName>
+  </City>
+  <City ID="124">
+    <Name>Харст</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="125">
+    <Name>Ирвинг</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="126">
+    <Name>Дукштас</Name>
+    <CountryName>Литва</CountryName>
+  </City>
+  <City ID="127">
+    <Name>Рушвилл</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="128">
+    <Name>Мончегорск</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="129">
+    <Name>Портадж-Лейкс</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="130">
+    <Name>Вашингтон</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="131">
+    <Name>Хорс-Кейв</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="132">
+    <Name>Апалачикола</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="133">
+    <Name>Кулунда</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="134">
+    <Name>Биледжик</Name>
+    <CountryName>Турция</CountryName>
+  </City>
+  <City ID="135">
+    <Name>Прямицыно</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="136">
+    <Name>Сан-Андрес-Тукстла</Name>
+    <CountryName>Мексика</CountryName>
+  </City>
+  <City ID="137">
+    <Name>Тират-Кармэль</Name>
+    <CountryName>Израиль</CountryName>
+  </City>
+  <City ID="138">
+    <Name>Кореличи</Name>
+    <CountryName>Беларусь</CountryName>
+  </City>
+  <City ID="139">
+    <Name>Тикси</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="140">
+    <Name>Боровая</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="141">
+    <Name>Трентон</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="142">
+    <Name>Гурли</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="143">
+    <Name>Раинсвилл</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="144">
+    <Name>Дашев</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="145">
+    <Name>Хартсбург</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="146">
+    <Name>Куба</Name>
+    <CountryName>Азербайджан</CountryName>
+  </City>
+  <City ID="147">
+    <Name>Ойлдейл</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="148">
+    <Name>Глазуновка</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="149">
+    <Name>Ильпырский</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="150">
+    <Name>Еланец</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="151">
+    <Name>Хакенсак</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="152">
+    <Name>Декатур</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="153">
+    <Name>Нижний Ломов</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="154">
+    <Name>Форествилл</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="155">
+    <Name>Советский</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="156">
+    <Name>Шевченко</Name>
+    <CountryName>Казахстан</CountryName>
+  </City>
+  <City ID="157">
+    <Name>Джамбейты</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="158">
+    <Name>Каммак-Виллидж</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="159">
+    <Name>Гавр</Name>
+    <CountryName>Франция</CountryName>
+  </City>
+  <City ID="160">
+    <Name>Грузско-Зорянское</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="161">
+    <Name>Велсен</Name>
+    <CountryName>Голландия</CountryName>
+  </City>
+  <City ID="162">
+    <Name>Хастингс</Name>
+    <CountryName>Новая Зеландия</CountryName>
+  </City>
+  <City ID="163">
+    <Name>МакИнтош</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="164">
+    <Name>Бренхам</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="165">
+    <Name>Венчоу</Name>
+    <CountryName>Китай</CountryName>
+  </City>
+  <City ID="166">
+    <Name>Лебедянь</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="167">
+    <Name>Тримбл</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="168">
+    <Name>Дандальк</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="169">
+    <Name>Демидов</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="170">
+    <Name>Индиан-Трейл</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="171">
+    <Name>Володарка</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="172">
+    <Name>Альвар</Name>
+    <CountryName>Индия</CountryName>
+  </City>
+  <City ID="173">
+    <Name>Ресистенсиа</Name>
+    <CountryName>Аргентина</CountryName>
+  </City>
+  <City ID="174">
+    <Name>Паркланд</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="175">
+    <Name>Патерно</Name>
+    <CountryName>Италия</CountryName>
+  </City>
+  <City ID="176">
+    <Name>Вест-Ковайн</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="177">
+    <Name>Ширин</Name>
+    <CountryName>Узбекистан</CountryName>
+  </City>
+  <City ID="178">
+    <Name>Палана</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="179">
+    <Name>Ичиномия</Name>
+    <CountryName>Япония</CountryName>
+  </City>
+  <City ID="180">
+    <Name>Поццуоли</Name>
+    <CountryName>Италия</CountryName>
+  </City>
+  <City ID="181">
+    <Name>Великий Устюг</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="182">
+    <Name>Куня-Ургенч</Name>
+    <CountryName>Туркменистан</CountryName>
+  </City>
+  <City ID="183">
+    <Name>Челно-Вершины</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="184">
+    <Name>Брук-Парк</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="185">
+    <Name>Красноармейск</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="186">
+    <Name>Кингс</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="187">
+    <Name>Элм-Спрингс</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="188">
+    <Name>Свалява</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="189">
+    <Name>Форт-Пирс</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="190">
+    <Name>Оснабрюк</Name>
+    <CountryName>Германия</CountryName>
+  </City>
+  <City ID="191">
+    <Name>Сиухога-Фоллс</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="192">
+    <Name>Провиденс</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="193">
+    <Name>Молоково</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="194">
+    <Name>Беркакит</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="195">
+    <Name>Чандигарх</Name>
+    <CountryName>Индия</CountryName>
+  </City>
+  <City ID="196">
+    <Name>Каррара</Name>
+    <CountryName>Италия</CountryName>
+  </City>
+  <City ID="197">
+    <Name>Мак-Миннвилл</Name>
+    <CountryName>США</CountryName>
+  </City>
+  <City ID="198">
+    <Name>Сарны</Name>
+    <CountryName>Украина</CountryName>
+  </City>
+  <City ID="199">
+    <Name>Фурманов</Name>
+    <CountryName>Россия</CountryName>
+  </City>
+  <City ID="200">
+    <Name>Куресааре</Name>
+    <CountryName>Эстония</CountryName>
+  </City>
+ </Cities>

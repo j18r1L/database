@@ -1,0 +1,7 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<!DOCTYPE Cities[
+	<!ELEMENT City(row)+>
+	<!ELEMENT row(City, City_id, Country)>
+	<!ATTLIST row City_id ID #REQUIRED>
+	<!ELEMENT City(#PCDATA)>
+]>
